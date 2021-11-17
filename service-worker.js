@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.57f3ee7db757ea4d1c4871da030a7276.js"
+  "precache-manifest.199372791145fd262be18e164956ae0d.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "axiosapp"});
+workbox.core.setCacheNameDetails({prefix: "japancovid"});
 
 self.addEventListener('message', (event) => {
   if (event.data && event.data.type === 'SKIP_WAITING') {
