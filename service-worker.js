@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "precache-manifest.ddf308da4616e9619a4e8fda8ace13e0.js"
+  "precache-manifest.3cccc2d65d96d97c34d72a4d449f73ff.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "japancovid"});
